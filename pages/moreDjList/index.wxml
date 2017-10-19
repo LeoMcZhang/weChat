@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="returnIndex">列表页</view>
+</view>

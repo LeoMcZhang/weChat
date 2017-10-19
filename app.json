@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/account/index",
+    "pages/moreDjList/index",
+    "pages/login/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"#fff",
+    "navigationBarBackgroundColor": "#bb2c08",
+    "navigationBarTitleText": "小张的幸福时光",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#fff",
+    "borderStyle": "#333",
+    "backgroundColor": "#212121",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "assets/image/cm2_btm_icn_discovery.png",
+      "selectedIconPath": "assets/image/cm2_btm_icn_discovery_prs.png",
+      "text": "发现音乐"
+    },{
+      "pagePath": "pages/account/index",
+      "iconPath": "assets/image/cm2_btm_icn_account.png",
+      "selectedIconPath": "assets/image/cm2_btm_icn_account_prs.png",
+      "text": "我的音乐"
+    }],
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

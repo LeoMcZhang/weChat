@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page_title">清先亮身份</view>
+  <view class="form_wrap">
+    <view class="ipt_wrap">
+      <input type="text" placeholder="输入用户名" bindinput="bindAccountInput"/>
+    </view>
+    <view class="ipt_wrap">
+      <input type="password" placeholder="输入密码" bindinput="bindPswInput"/>
+    </view>
+  </view>
+  <button bindtap="loginTap" class="login_btn">登录</button>
+  <button bindtap="indexTap" class="index_btn">回到首页</button>
+</view>

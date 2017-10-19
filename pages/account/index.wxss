@@ -1,0 +1,24 @@
+/**index.wxss**/
+.account_page {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f2f2f2!important;
+}
+.account_info {
+  padding: 60rpx 0;
+}
+.account_info image {
+  width: 170rpx;
+  height: 170rpx;
+  margin: 0 auto 20rpx;
+  display: block;
+}
+.account_info .account_name {
+  font-size: 32rpx;
+  text-align: center;
+  width: 100%;
+  color: #bb2c08;
+}
