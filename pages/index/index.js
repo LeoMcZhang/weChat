@@ -53,6 +53,12 @@ Page({
       })
     })
   },
+  hotTap: function(option) {
+    var path = '/pages/moreDjList/index?id=' + option.currentTarget.dataset.id
+    wx.navigateTo({
+      url: path
+    })
+  },
   moreDjTap: function () {
     wx.navigateTo({
       url: '/pages/moreDjList/index'

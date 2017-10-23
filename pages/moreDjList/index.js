@@ -5,10 +5,12 @@ const app = getApp()
 Page({
   data: {},
   // 钩子函数
-  onLoad: function () {
+  onLoad: function (option) {
+    console.log(option.id)
+  },
+  onShow: function () {
   },
   returnIndex: function () {
-    console.log(1)
     wx.navigateTo({
       url: '/pages/index/index'
     })

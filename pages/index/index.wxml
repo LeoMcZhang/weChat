@@ -20,7 +20,7 @@
     </view>
     <scroll-view class="scroll_wrap" scroll-y="true" bindscrolltolower="scrollLower" lower-threshold="10">
       <view class="cont_wrap">
-        <view class="cont_block" wx:for="{{hotList}}" wx:key="index">
+        <view class="cont_block" wx:for="{{hotList}}" data-id="{{item.id}}" wx:key="index" bindtap="hotTap">
           <view class="cont_img">
             <image src="{{item.picUrl}}"/>
           </view>
