@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<import src="../playList/index.wxml"></import>
+<view class="container">
+  <view class="list_data">
+    <view class="top_data">
+      <veiw class="top_wrap">
+        <view class="play_img">
+          <image src="{{playlist.coverImgUrl}}"></image>
+        </view>
+        <view class="song_data">
+          <view class="song_des">{{playlist.name}}</view>
+          <view class="singer_des">
+            <image src="/assets/image/cm2_lay_icn_artist_new@2x.png"></image>
+            <view class="singer_name">{{playlist.commentThreadId}}</view>
+          </view>
+        </view>
+      </veiw>
+    </view>
+    <view class="bottom_data">
+      <view class="add_file">
+        <view class="add_block">
+          <view class="add_wrap">
+            <image src="/assets/image/cm2_list_detail_icn_cmt@2x.png"></image>
+            <view class="add_times">{{playlist.shareCount}}</view>
+          </view>
+        </view>
+        <view class="add_block">
+          <view class="add_wrap">
+            <image src="../../assets/image/cm2_list_detail_icn_dld@2x.png"></image>
+            <view class="add_times">{{playlist.playCount}}</view>
+          </view>
+        </view>
+        <view class="add_block">
+          <view class="add_wrap">
+            <image src="../../assets/image/cm2_list_detail_icn_fav_new@2x.png"></image>
+            <view class="add_times">{{playlist.commentCount}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="play_list">
+    <template is="playList" data="{{playlist}}"></template>
+  </view>
+</view>

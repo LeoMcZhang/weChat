@@ -53,8 +53,9 @@ Page({
       })
     })
   },
+  // 列表渲染绑定事件
   hotTap: function(option) {
-    var path = '/pages/moreDjList/index?id=' + option.currentTarget.dataset.id
+    var path = '/pages/playDetail/index?id=' + option.currentTarget.dataset.id
     wx.navigateTo({
       url: path
     })

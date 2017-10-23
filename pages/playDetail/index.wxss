@@ -1,0 +1,73 @@
+/**index.wxss**/
+@import '../playList/index.wxss'
+
+.list_data {
+  background-color: #333;
+  opacity: 0.8;
+  padding-bottom: 20rpx;
+}
+
+.list_data .top_data {
+}
+
+.top_wrap {
+  padding: 20rpx;
+  display: flex;
+}
+
+.list_data .top_data .play_img image {
+  width: 260rpx;
+  height: 260rpx;
+}
+
+.list_data .song_data {
+  padding-left: 10rpx;
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.list_data .song_data .song_des {
+  padding: 40rpx 0;
+  line-height: 50rpx;
+  font-size: 32rpx;
+}
+
+.list_data .song_data .singer_des {
+  display: flex;
+}
+
+.list_data .song_data .singer_des image {
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+}
+
+.list_data .song_data .singer_des .singer_name {
+  margin-left: 10rpx;
+  line-height: 50rpx;
+}
+.list_data .bottom_data .add_file {
+  display: flex;
+  justify-content: space-between;
+}
+
+ .list_data .bottom_data .add_file .add_block {
+  flex: 1;
+ }
+
+  .list_data .bottom_data .add_file .add_wrap {
+    margin: 0 auto;
+  }
+
+.list_data .bottom_data image {
+  width: 80rpx;
+  height: 80rpx;
+  display: block;
+  margin: 0 auto;
+}
+
+.list_data .bottom_data .add_times {
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+}

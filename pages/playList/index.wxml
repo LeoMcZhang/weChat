@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<template name="playList" class="list_cont">
+  <view class="list_cont">
+    <view class="list_top list_block">
+      <view class="left_block">
+        <image src="/assets/image/pl-playall.png"></image>
+      </view>
+      <view class="right_block">播放全部<span>(共{{playlist.tracks
+.length}}首)</span></view>
+    </view>
+    <view class="list_block" wx:for="{{playlist.tracks}}" wx:key="index">
+      <view class="left_block">{{index + 1}}</view>
+      <view class="right_block">
+        <view class="top_block">{{item.name}}</view>
+        <view class="bottom_block">{{item.ar[0].name}}-{{item.al.name}}</view>
+      </view>
+    </view>
+  </view>
+</template>
