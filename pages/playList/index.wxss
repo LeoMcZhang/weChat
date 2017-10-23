@@ -19,8 +19,8 @@
 
 .list_cont .list_block .right_block {
   width: 100%;
-  border-bottom: 1px solid #ddd;
-  padding: 10rpx 0;
+  border-bottom: 1rpx solid #ddd;
+  padding: 20rpx 0;
 }
 
 .list_cont .list_top .right_block , .list_cont .list_top .left_block {
@@ -32,11 +32,11 @@
 }
 
 .list_cont .list_block .top_block {
-  line-height: 60rpx;
+  line-height: 50rpx;
 }
 
 .list_cont .list_block .bottom_block  {
-  line-height: 40rpx;
+  line-height: 30rpx;
   font-size: 24rpx;
   color: #666;
 }

@@ -1,6 +1,7 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app         = getApp(),
+      playListFun = require('../playList/index.js')
 
 Page({
   data: {
@@ -26,8 +27,11 @@ Page({
       console.log(_this.data.playlist)
       // 修改头部标题
       wx.setNavigationBarTitle({
-        title: e.data.playlist.name || '列表详情'//页面标题为路由参数
+        title: e.data.playlist.name || '列表详情'// 页面标题为路由参数
       })
     })
   },
+  listTap: function () {
+    playListFun()
+  }
 })

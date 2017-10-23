@@ -8,7 +8,7 @@
       <view class="right_block">播放全部<span>(共{{playlist.tracks
 .length}}首)</span></view>
     </view>
-    <view class="list_block" wx:for="{{playlist.tracks}}" wx:key="index">
+    <view class="list_block" wx:for="{{playlist.tracks}}" wx:key="index" bindtap="listTap">
       <view class="left_block">{{index + 1}}</view>
       <view class="right_block">
         <view class="top_block">{{item.name}}</view>
