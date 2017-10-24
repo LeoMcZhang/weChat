@@ -4,7 +4,8 @@
     "pages/account/index",
     "pages/login/index",
     "pages/moreDjList/index",
-    "pages/playDetail/index"
+    "pages/playDetail/index",
+    "pages/playPage/playPage"
   ],
   "window":{
     "backgroundTextStyle":"#fff",

@@ -22,3 +22,25 @@
   width: 100%;
   color: #bb2c08;
 }
+
+.menu_block .menu_tab {
+ display: flex;
+ align-items: center;
+ line-height: 100rpx;
+ background-color: #fff;
+}
+
+.menu_block .menu_tab image {
+  width: 60rpx;
+  height: 60rpx;
+  margin: 0 20rpx;
+}
+
+.menu_block .menu_tab .menu_text {
+  color: #333;
+  line-height: 60rpx;
+  font-size: 32rpx;
+  padding: 20rpx 0;
+  width: 100%;
+  border-bottom: 1rpx solid #ddd;
+}

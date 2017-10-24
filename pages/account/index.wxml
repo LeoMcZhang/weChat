@@ -9,7 +9,24 @@
       <image src="/assets/image/cm2_list_icn_dld_new@2x.png"/>
       <view class="menu_text">
         我的下载
-        <image src="/assets/image/cm2_playlist_icn_dlt@2x.png"/>
+      </view>
+    </view>
+    <view class="menu_tab">
+      <image src="/assets/image/cm2_list_icn_artists_new@2x.png"/>
+      <view class="menu_text">
+        我的文章
+      </view>
+    </view>
+    <view class="menu_tab">
+      <image src="/assets/image/cm2_list_icn_mymv_new@2x.png"/>
+      <view class="menu_text">
+        一起下载的片
+      </view>
+    </view>
+    <view class="menu_tab">
+      <image src="/assets/image/cm2_list_icn_rdi_new@2x.png"/>
+      <view class="menu_text">
+        那些年充过的会员
       </view>
     </view>
   </veiw>

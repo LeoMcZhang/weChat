@@ -31,7 +31,9 @@ Page({
       })
     })
   },
-  listTap: function () {
-    playListFun()
+  listTap: function (e) {
+    var data = e.currentTarget.dataset
+    console.log(data)
+    playListFun(data.id, data.dt, wx)
   }
 })
