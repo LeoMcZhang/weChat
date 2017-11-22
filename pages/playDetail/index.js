@@ -11,6 +11,7 @@ Page({
   },
   // 钩子函数
   onLoad: function (option) {
+    console.log(option)
     this.getDetail(option.id)
   },
   onShow: function () {
